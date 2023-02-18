@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-family:cursive;
+    font-size: large;
+}
+
+table{
+    text-align: center;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(33, 37, 41);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+}
+
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .main {
+        flex-direction: column;
+    }
+}
